@@ -1,0 +1,597 @@
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.icon:hover > path {
+    fill: var(--primary);
+}
+
+header.topbar .auth > div a:hover{
+    color: var(--primary);
+}
+
+header.topbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.topbar .icons{
+    margin-left: 40px;
+}
+
+header.topbar .auth{
+    display: flex;
+    margin-right: 40px;
+}
+
+header.topbar{
+    background: var(--secondary);
+    color: var(--pure);
+    font-family:"Raleway-semibold";
+    padding: 0.75rem 0;
+}
+
+header.topbar .auth > div a{
+    color: var(--pure);
+    text-decoration: none;
+}
+
+header.topbar .auth div{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+header.topbar .icons a{
+    padding-right: 1rem;
+}
+
+header.topbar .icons img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+header.topbar .auth .divider{
+    padding: 0 1rem;
+    margin: auto 0;
+}
+
+header.topbar .auth > div img{
+    margin-right: 0.35rem;
+}
+
+header.hero{
+    background-image: url(/images/blurr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+    color: var(--heaven);
+    padding: 25px;
+    position: relative;
+}
+
+header.hero .container{
+    position: absolute;
+    left: 40rem;
+    font-size: 20px;
+}
+
+header.hero .welcome{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+header.hero h1 span{
+    color: var(--primary);
+}
+
+
+header.hero p{
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+header.hero button{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: none;
+}
+
+header.hero .heroimg img{
+    position: relative;
+    left: 1rem;
+    height: 250px;
+    width: 250px;
+    margin: 50px 120px;
+
+}
+
+header.hero button.readmore{
+    color: var(--heaven);
+    background-color: var(--primary);
+}
+
+header.hero button.readmore:hover{
+    color: var(--primary);
+    background-color: var(--heaven);
+}
+
+header.hero button.shopnow{
+    color: var(--heaven);
+    background-color: var(--secondary);
+}
+
+header.hero button.shopnow:hover {
+    color: var(--secondary);
+    background-color: var(--heaven);
+}
+
+nav .top .contact img{
+    margin-right: 0.5rem;
+}
+
+nav .top .timming img{
+    margin-right: 0.5rem;
+}
+
+.navbar {
+    background-color: var(--secondary);
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: center;
+    color: var(--pure);
+}
+
+.navbar .container a{
+    text-decoration: none;
+    color: var(--pure);
+    font-size: 1rem;
+    padding: 1.3rem 1.5rem;
+}
+
+.navbar .container a.active{
+    background: var(--primary);
+    color: var(--pure);
+}
+
+.navbar .container a:hover {
+    background: var(--primary);
+    color: var(--pure);
+    transition: all 0.3s all;
+}
+
+:root {
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FEFEFE;
+    --pure:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+
+section .collect{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+section {
+    background-color: rgb(230, 225, 225);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+section h1{
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    padding: 25px;
+}
+
+section .one {
+    background-color: var(--secondary);
+    padding: 3rem;
+    text-align: center;
+    margin: auto ;
+    margin-left: 200px;
+}
+
+section .one .image2{
+    height: 50px;
+    width: 50px;
+}
+
+section .one h3, section .two h3, section .three h3 {
+    color: var(--primary);
+    padding: 5px;
+    text-align: center;
+}
+
+h4{
+    color: rgb(188, 76, 76);
+    padding: 5px;
+    text-align: center;
+}
+
+section .one .cartone{
+    display: flex;
+    justify-content: center;
+}
+
+section .one .cartone button.cartoneb{
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: var(--primary);
+    padding: 5px;
+    background-color:var(--pure);
+    color: var(--primary);
+}
+
+section .one .cartone button:hover{
+    color: var(--pure);
+    background-color: var(--primary);
+}
+
+section .two {
+    background-color: var(--secondary);
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+section .two .image3 ,section .three .image5, section .one .image1 {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+section .two .image4{
+    height: 50px;
+    width: 50px;
+}
+section .two .carttwo{
+    display: flex;
+    justify-content: center;
+}
+
+section .two .carttwo button.carttwob{
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: var(--primary);
+    padding: 5px;
+    background-color:var(--pure);
+    color: var(--primary);
+}
+
+section .two .carttwo button:hover{
+    color: var(--pure);
+    background-color: var(--primary);
+}
+
+section .three {
+    background-color: var(--secondary);
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-right: 200px;
+}
+
+section .three .image6{
+    height: 50px;
+    width: 50px;
+}
+
+section .three .cartthree{
+    display: flex;
+    justify-content: center;
+}
+
+section .three .cartthree button.cartthreeb{
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: var(--primary);
+    padding: 5px;
+    background-color:var(--pure);
+    color: var(--primary);
+}
+
+section .three .cartthree button:hover{
+    color: var(--pure);
+    background-color: var(--primary);
+}
+
+section button.viewmore{
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+section button:hover{
+    background-color: var(--primary);
+}
+
+section .h3{
+    color: var(--secondary);
+}
+
+section.bigdeals {
+    background-image: linear-gradient(
+        rgba(211, 211, 217, 0.8),
+        rgba(184, 184, 186, 0.8)
+    ), url("/images/vegetables.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.bigdeals .timmer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: -2rem;
+}
+
+section .timmer div{
+    background-color: var(--primary);
+    color: var(--heaven);
+    margin-right: 2rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.bigdeals .dealsheading{
+    text-align: center;
+    color: var(--heaven);
+}
+
+section .timmer div span:first-child{
+    font-size: 1.5rem;
+    color: var(--heaven);
+}
+
+section .timmer div span:last-child{
+    font-size: 1rem;
+    color: var(--heaven);
+}
+
+.top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.top .container .contact{
+    display: flex;
+    align-items: center;
+}
+
+.top .contact img{
+    height: 50px;
+    width: 50px;
+}
+
+.top .container .timming{
+    display: flex;
+    align-items: center;
+}
+
+.top .container .branding{
+    display: flex;
+}
+
+.top .container .timming img{
+    height: 50px;
+    width: 50px;
+}
+
+.about h2.h21{
+    color: #000000;
+    text-align: center;
+    margin: 40px auto 10px auto;
+    border-bottom: 2px solid var(--primary);
+}
+
+.about .contents {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+
+.about .contents img {
+    width: 200px;
+    height: 200px;
+}
+
+.about .para h3.h32 {
+    padding-bottom: 15px;
+}
+
+.about .para p {
+    padding-bottom: 10px;
+    line-height: 1.6rem;
+}
+
+.about .para button {
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 4px;
+}
+
+.about .para button:hover {
+    background-color: var(--primary);
+    color: var(--pure);
+}
+
+.about .para {
+    margin-left: 90px;
+}
+
+section.contact-us {
+    display: flex;
+    background-color: var(--heaven);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section.contact-us .contactus {
+    background-color: rgb(230, 225, 225);
+    padding: 1.5rem auto;
+    flex: 1;
+}
+
+section.contact-us .map {
+    flex: 1;
+}
+
+section.contact-us .contactus h1.heading {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left:  78px;
+    padding-right:  78px;
+} 
+
+section.contact-us .contactinfo img {
+    height: 40px;
+    width: 40px;
+    padding-right: 1.5rem;
+    align-items: left;
+}
+
+section.contact-us .contactinfo {
+    padding-left: 78px;
+}
+
+.contact-us .call, .contact-us .email, .contact-us .hours {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+.contact-us .call .phninfo, .contact-us .email .emailinfo, .contact-us .hours .hoursinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact-us .contactinfo > div {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: var(--footer);
+    padding: 10px 200px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 150px;
+}
+
+footer .footer .first, footer .footer .second, footer .footer .third{
+    flex: 1;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+footer h3{
+    color: var(--heaven);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 1rem
+    
+}
+
+footer .first p{
+    color: #d6d3d3;
+    font-size: 13px;
+}
+
+
+footer .second a, footer .third a {
+    color: #d6d3d3;
+    text-decoration: none;
+    transition: all 0.3 ease;
+}
+
+footer .second ul, footer .third ul{
+    list-style-type: none;
+}
+
+footer .second a:hover, footer .third a:hover{
+    color: var(--primary);
+}
+
+footer .second li, footer .third li  {
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+footer button{
+    background-color: #000000;
+    color: var(--pure);
+    margin: 10px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+footer button:hover{
+    background-color: var(--primary);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:"Raleway-regular";
+    src:url(../fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family:"Raleway-medium";
+    src:url(../fonts/Raleway-Medium.ttf)
+}
+@font-face {
+    font-family:"Raleway-bold";
+    src:url(../fonts/Raleway-Bold.ttf)
+}
+@font-face {
+    font-family:"Raleway-extrabold";
+    src:url(../fonts/Raleway-ExtraBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-semibold";
+    src:url(../fonts/Raleway-SemiBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-black";
+    src:url(../fonts/Raleway-Black.ttf)
+}
+
+
